@@ -1,0 +1,23 @@
+/* Default page */
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   display: flex;
+   justify-content: center;
+   padding: 88px 0px 120px;
+   background-color: #f1f6ff;
+   font-family: 'Roboto', sans-serif;
+}
+
+.container{
+   max-width: 900px;
+   margin: 0 auto;
+   padding: 0 20px;
+}
+
+
+/* Code Acordion */
