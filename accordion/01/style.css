@@ -6,8 +6,6 @@
 }
 
 body{
-   display: flex;
-   justify-content: center;
    padding: 88px 0px 120px;
    background-color: #f1f6ff;
    font-family: 'Roboto', sans-serif;
@@ -41,7 +39,7 @@ body{
   display: inline-block;
   position: absolute;
   content: "";
-  background-image: url(plus-dark.svg);
+  background-image: url(assets/icons/plus-dark.svg);
   width: 32px;
   height: 32px;
   top: 12px;
@@ -56,7 +54,7 @@ body{
   border-radius: 4px 4px 0px 0px;
 }
 .acordion-title.ativo::after {
-  background-image: url(minus.svg);
+  background-image: url(assets/icons/minus.svg);
   top: 15px;
   right: -12px;
 }
