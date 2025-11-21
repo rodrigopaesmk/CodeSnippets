@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;800&display=swap" rel="stylesheet">
+   <title>Toast de Alerta</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+    <h2>Toast de Alerta por clique</h2>
+
+    <div class="buttons">
+        <button onclick="showToast('Sucesso! Operação concluída.', 'success')">Sucesso</button>
+        <button onclick="showToast('Algo deu errado.', 'error')">Erro</button>
+        <button onclick="showToast('Atenção! Revise os dados.', 'warning')">Aviso</button>
+        <button onclick="showToast('Informação importante.', 'info')">Info</button>
+    </div>
+
+    <!-- Container que recebe os toasts -->
+    <div class="toast-container"></div>
+</div>
+
+   <script src="script.js"></script>
+</body>
+</html>
