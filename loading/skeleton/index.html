@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;800&display=swap" rel="stylesheet">
+   <title>Skeleton Loading</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+    <h2>Skeleton Loading (Efeito Shimmer)</h2>
+
+<div class="card" id="card">
+    
+    <!-- SKELETON -->
+    <div class="skeleton-wrapper">
+        <div class="skeleton skeleton-img"></div>
+
+        <div class="skeleton skeleton-line full"></div>
+        <div class="skeleton skeleton-line medium"></div>
+        <div class="skeleton skeleton-line short"></div>
+    </div>
+
+    <!-- CONTEÚDO REAL -->
+    <div class="content">
+        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30" alt="">
+        <h3>Produto Premium</h3>
+        <p>Este é o texto real que aparece após o carregamento. O skeleton desaparece e o conteúdo entra suavemente.</p>
+    </div>
+    </div>
+</div>
+
+   <script src="script.js"></script>
+</body>
+</html>
