@@ -1,0 +1,80 @@
+/* Default page */
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+body{
+   padding: 88px 0px 120px;
+   background-color: #f1f6ff;
+   font-family: 'Roboto', sans-serif;
+   background: #0f0f0f;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+h2{
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+.loader-container {
+        width: 90%;
+        max-width: 300px;
+        text-align: center;
+        }
+
+        .progress-circle {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            background: conic-gradient(#4caf50 0deg, #333 0deg);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto 20px;
+            transition: all 0.3s ease;
+        }
+
+        .progress-inner {
+            width: 135px;
+            height: 135px;
+            background: #0f0f0f;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        .loader-label {
+            font-size: 1.1rem;
+            opacity: 0.8;
+            margin-top: 10px;
+        }
+
+        /* Responsivo */
+        @media (max-width: 480px) {
+            .progress-circle {
+                width: 140px;
+                height: 140px;
+            }
+            .progress-inner {
+                width: 105px;
+                height: 105px;
+                font-size: 1.6rem;
+            }
+        }
