@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Exit Popup</title>
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+
+  <h1 style="padding: 40px;">Tente sair do site...</h1>
+
+   <!-- Overlay -->
+    <div class="exit-overlay" id="exitOverlay">
+        <div class="exit-popup" id="exitPopup">
+            <div class="close-btn" id="closeBtn">&times;</div>
+
+            <h2>😥 Ei, espere!</h2>
+            <p>Tem certeza que deseja sair? Podemos te ajudar com algo antes?</p>
+            <button onclick="closeExitPopup()">Continuar no site</button>
+        </div>
+    </div>
+
+  <script src="script.js"></script>
+
+
+</body>
+</html>
